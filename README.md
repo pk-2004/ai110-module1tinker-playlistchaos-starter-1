@@ -50,6 +50,12 @@ Run the app and try things out:
 
 As you explore, write down at least five things that feel confusing, inconsistent, or strange. These might be bugs, quirks, or unexpected design decisions.
 
+1. Lack of confirmation of resetting song list to default
+2. Artist search is case- sensitive and not suggesting partial matches
+3. Not able to delete a song
+4. Not able to choose a song from solely the "Mixed" playlist
+5. The most common artist is just choosing a random song when all entries are unique
+
 ### 2. Ask AI for help understanding the code  
 
 Pick one issue from your list. Use an AI coding assistant to:
@@ -63,6 +69,8 @@ For example:
 > "Here is the function that classifies songs. The app is mislabeling some songs. Help me understand what the function is doing and where the logic might need adjustment."
 
 Before making changes, summarize in your own words what you think is happening.
+
+I beleive the code is looking for an exact match rather than checking whether the substring is part of a string
 
 ### 3. Fix at least four issues  
 
